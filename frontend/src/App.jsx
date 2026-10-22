@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = (
-  import.meta.env.VITE_API_URL || "https://citizenconnect-backend-k2p8.onrender.com"
-).replace(/\/$/, "");
+const API_URL = "https://citizenconnect-backend-k2p8.onrender.com";
 
 function App() {
   const [complaints, setComplaints] = useState([]);
